@@ -1,0 +1,14 @@
+[Misc]
+BuildingKillsGiveExp=1
+DayLength=600.0
+DisplayBuildingStatus=1
+DrainUsesEtheralBonus=1
+IllusionsBestowAuras=1
+InvulnSummonDispelDamage=1
+MaxHeroLevel=30
+MaxUnitLevel=100
+MaxUnitSpeed=522.0
+MinUnitSpeed=100.0
+MoveSpeedBonusesStack=1
+PolymorphedUnitsBestowAuras=1
+

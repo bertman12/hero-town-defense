@@ -1,0 +1,1290 @@
+﻿STRING 1
+{
+Player 1
+}
+
+STRING 3
+{
+Endless War
+}
+
+STRING 4
+{
+Any
+}
+
+STRING 5
+{
+Genre: Hero/Base Builder/Town Defense/Command and Conquer
+}
+
+STRING 6
+{
+JediMindTrix/NihilismIsDeath
+}
+
+STRING 7
+// Units: e000 (The Giver of Life), Name (Name)
+{
+The Giver of Life
+}
+
+STRING 8
+// Abilities: A001 ("G" - The Glutton), Name (Name)
+{
+"G" - The Glutton
+}
+
+STRING 10
+// Units: H001 (The Glutton), Propernames (Proper Names)
+{
+The Glutton
+}
+
+STRING 17
+// Abilities: A001 ("G" - The Glutton), Tip (Tooltip - Normal)
+{
+"G" - The Glutton
+}
+
+STRING 18
+// Abilities: A001 ("G" - The Glutton), Hotkey (Hotkey - Normal)
+{
+G
+}
+
+STRING 19
+// Abilities: A001 ("G" - The Glutton), Ubertip (Tooltip - Normal - Extended)
+{
+Devours an enemy land unit, slowly digesting it While digesting the unit, you gain all their stats and abilities Once you are finished, you lose all bonuses but retain a small percentage of their power.
+}
+
+STRING 21
+// Abilities: A002 (Glutton Cargo), Name (Name)
+{
+Glutton Cargo
+}
+
+STRING 22
+// Units: H001 (The Glutton), Name (Name)
+{
+The Glutton
+}
+
+STRING 24
+// Units: H002 (The Blessed), Name (Name)
+{
+The Blessed
+}
+
+STRING 25
+// Units: H002 (The Blessed), Propernames (Proper Names)
+{
+The Blessed
+}
+
+STRING 26
+// Units: e001 (Soul), Name (Name)
+{
+Soul
+}
+
+STRING 27
+{
+Player 2
+}
+
+STRING 28
+{
+Player 3
+}
+
+STRING 29
+{
+Player 4
+}
+
+STRING 30
+{
+Player 5
+}
+
+STRING 31
+{
+Player 6
+}
+
+STRING 41
+{
+Defenders
+}
+
+STRING 42
+{
+Attackers
+}
+
+STRING 43
+// Units: n002 (Shop 1), Name (Name)
+{
+Shop 1
+}
+
+STRING 44
+{
+Creep Forces
+}
+
+STRING 45
+// Units: n001 (Defenders Tavern), Name (Name)
+{
+Defenders Tavern
+}
+
+STRING 46
+// Units: n003 (Attackers Tavern), Name (Name)
+{
+Attackers Tavern
+}
+
+STRING 47
+// Units: U001 (Demonic Flame Keeper), Name (Name)
+{
+Demonic Flame Keeper
+}
+
+STRING 48
+// Units: h005 (PositionalTarget), Name (Name)
+{
+PositionalTarget
+}
+
+STRING 51
+{
+=========Author=========
+Battlenet: JediMindTrix#11419
+Hive: NihilismIsDeath
+========================
+Genre: Hero/Base Builder/Town Defense/Command and Conquer
+
+Plan accordingly for the various events that occur.
+
+Win condition: Eliminiate all other players
+Lose condition: You die.
+
+
+Powered by TriggerHappy Wc3-Typescript SDK
+}
+
+STRING 52
+{
+Endless War - Dev Version
+}
+
+STRING 53
+// Units: h006 (Landmark Heroic Statue), Name (Name)
+{
+Landmark Heroic Statue
+}
+
+STRING 54
+// Units: h008 (Landmark The Keeper), Name (Name)
+{
+Landmark The Keeper
+}
+
+STRING 55
+// Units: h009 (Landmark HeroicStatue Shield), Name (Name)
+{
+Landmark HeroicStatue Shield
+}
+
+STRING 56
+// Destructibles: B002 (origin spawn), Name (Name)
+{
+origin spawn
+}
+
+STRING 57
+// Destructibles: B003 (attempted origin), Name (Name)
+{
+attempted origin
+}
+
+STRING 58
+// Destructibles: B004 (rocks), Name (Name)
+{
+rocks
+}
+
+STRING 59
+// Destructibles: B000 (flowers), Name (Name)
+{
+flowers
+}
+
+STRING 60
+{
+Procedurally Created Map
+}
+
+STRING 61
+// Units: O000 (Demon Seer), Name (Name)
+{
+Demon Seer
+}
+
+STRING 63
+{
+Creep Force 1
+}
+
+STRING 65
+{
+Local Inhabitants
+}
+
+STRING 66
+{
+Raider Forces
+}
+
+STRING 67
+{
+Druidic Healers of the Lands
+}
+
+STRING 68
+// Destructibles: B001 (shrubs), Name (Name)
+{
+shrubs
+}
+
+STRING 69
+// Units: H001 (The Glutton), Tip (Tooltip - Basic)
+{
+Summon The Glutton
+}
+
+STRING 70
+// Units: H001 (The Glutton), Awakentip (Tooltip - Awaken)
+{
+Revive The Glutton
+}
+
+STRING 71
+// Units: H001 (The Glutton), Revivetip (Tooltip - Revive)
+{
+Revive The Glutton
+}
+
+STRING 78
+// Items: I001 (Eternal Tango), Name (Name)
+{
+Eternal Tango
+}
+
+STRING 79
+// Items: I001 (Eternal Tango), Description (Description)
+{
+Consume a tree to restore 150 health over 30 seconds.
+}
+
+STRING 80
+// Items: I001 (Eternal Tango), Ubertip (Tooltip - Extended)
+{
+Consume a tree to restore 150 health over 30 seconds.
+}
+
+STRING 81
+// Items: I001 (Eternal Tango), Tip (Tooltip - Basic)
+{
+Purchase Eternal Tango
+}
+
+STRING 82
+// Abilities: A005 (Charge!), Tip (Tooltip - Normal)
+{
+Charge!
+}
+
+STRING 83
+// Abilities: A005 (Charge!), Name (Name)
+{
+Charge!
+}
+
+STRING 84
+// Abilities: A005 (Charge!), Ubertip (Tooltip - Normal - Extended)
+{
+Causes the knight to move 25% faster for 10 seconds.
+}
+
+STRING 85
+// Abilities: A006 (Fell Tree), Name (Name)
+{
+Fell Tree
+}
+
+STRING 86
+// Abilities: A006 (Fell Tree), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 87
+// Abilities: A006 (Fell Tree), Tip (Tooltip - Normal)
+{
+Fell Tree
+}
+
+STRING 88
+// Abilities: A006 (Fell Tree), Ubertip (Tooltip - Normal - Extended)
+{
+Allows the peasant to chop a tree down.
+}
+
+STRING 89
+// Units: h00C (Stone Wall - Horizontal), Name (Name)
+{
+Stone Wall - Horizontal
+}
+
+STRING 90
+// Units: h00D (Stone Wall - Vertical), Name (Name)
+{
+Stone Wall - Vertical
+}
+
+STRING 91
+// Abilities: A007 (Well Fed), Name (Name)
+{
+Well Fed
+}
+
+STRING 94
+// Abilities: A007 (Well Fed), Ubertip (Tooltip - Normal - Extended)
+{
+Feeds the target a hearty meal, providing a 100% damage increase. Lasts 30 seconds for hero units and 60 seconds for normal units. |cffd45e19Autocast|r
+}
+
+STRING 95
+// Abilities: A007 (Well Fed), Tip (Tooltip - Normal)
+{
+Well Fed
+}
+
+STRING 96
+// Units: H000 (Paladin), Propernames (Proper Names)
+{
+Aaurius the Crackhead
+}
+
+STRING 97
+// Units: e002 (Earthern Goliath), Name (Name)
+{
+Earthern Goliath
+}
+
+STRING 98
+// Upgrades: R002 (Chaos), Name (Name)
+{
+Worker Speed
+}
+
+STRING 99
+// Upgrades: R002 (Chaos), effect1 (Effect 1)
+{
+rmvx
+}
+
+STRING 100
+// Upgrades: R002 (Chaos), Tip (Tooltip)
+{
+Research Worker Speed
+}
+
+STRING 102
+// Units: u002 (Altar of Chaos), Name (Name)
+{
+Altar of Chaos
+}
+
+STRING 103
+// Units: u002 (Altar of Chaos), Tip (Tooltip - Basic)
+{
+Construct Altar of Chaos
+}
+
+STRING 104
+// Units: u002 (Altar of Chaos), Ubertip (Tooltip - Extended)
+{
+Sacrifice souls to the lords of chaos and bring doom to the world.
+}
+
+STRING 105
+// Units: h00C (Stone Wall - Horizontal), Hotkey (Hotkey)
+{
+H
+}
+
+STRING 107
+// Units: h00D (Stone Wall - Vertical), Hotkey (Hotkey)
+{
+V
+}
+
+STRING 108
+// Units: n004 (Messenger Bird - War), Name (Name)
+{
+Messenger Bird - War
+}
+
+STRING 109
+// Units: n005 (Messenger Bird - Peace), Name (Name)
+{
+Messenger Bird - Peace
+}
+
+STRING 110
+// Units: n006 (Messenger Bird - Alliance), Name (Name)
+{
+Messenger Bird - Alliance
+}
+
+STRING 111
+// Units: n007 (Messenger Bird - Neutrality), Name (Name)
+{
+Messenger Bird - Neutrality
+}
+
+STRING 112
+// Upgrades: R001 (Chaos), Name (Name)
+{
+Diplomacy
+}
+
+STRING 113
+// Upgrades: R001 (Chaos), Ubertip (Tooltip - Extended)
+{
+Enables you to change your alliance status with other players.
+}
+
+STRING 116
+// Upgrades: R001 (Chaos), Tip (Tooltip)
+{
+Research Diplomacy
+}
+
+STRING 117
+// Units: h00G (Aviary), Name (Name)
+{
+Aviary
+}
+
+STRING 118
+// Units: n004 (Messenger Bird - War), Tip (Tooltip - Basic)
+{
+Train  Messenger Bird - War
+}
+
+STRING 119
+// Units: n005 (Messenger Bird - Peace), Tip (Tooltip - Basic)
+{
+Train  Messenger Bird - Peace
+}
+
+STRING 120
+// Units: n006 (Messenger Bird - Alliance), Tip (Tooltip - Basic)
+{
+Train  Messenger Bird - Alliance
+}
+
+STRING 121
+// Units: n007 (Messenger Bird - Neutrality), Tip (Tooltip - Basic)
+{
+Train  Messenger Bird - Neutrality
+}
+
+STRING 122
+// Units: h00H (Workshop), EditorSuffix (Name - Editor Suffix)
+{
+custom
+}
+
+STRING 123
+// Units: h00I (Mason), Name (Name)
+{
+Mason
+}
+
+STRING 124
+// Units: h00I (Mason), Tip (Tooltip - Basic)
+{
+Train Mason
+}
+
+STRING 125
+// Units: h00I (Mason), Ubertip (Tooltip - Extended)
+{
+Basic Worker unit. Can build additional defensive and economic structures.
+}
+
+STRING 126
+// Units: h00I (Mason), Hotkey (Hotkey)
+{
+M
+}
+
+STRING 127
+// Units: h00E (Dwarven Assault Tank), Name (Name)
+{
+Dwarven Assault Tank
+}
+
+STRING 128
+// Units: h00E (Dwarven Assault Tank), Tip (Tooltip - Basic)
+{
+Train Dwarven Assault Tank
+}
+
+STRING 129
+// Units: h00E (Dwarven Assault Tank), Ubertip (Tooltip - Extended)
+{
+Heavily armored vehicle, effective at eliminating ground units.
+}
+
+STRING 130
+// Units: n008 (Fat Pig), Tip (Tooltip - Basic)
+{
+Raise Pig
+}
+
+STRING 132
+// Units: n008 (Fat Pig), Ubertip (Tooltip - Extended)
+{
+An alternative method to providing food. Provides 2 food.
+}
+
+STRING 133
+// Units: n008 (Fat Pig), Name (Name)
+{
+Fat Pig
+}
+
+STRING 134
+// Units: h00K (Mana Battery), Name (Name)
+{
+Mana Battery
+}
+
+STRING 135
+// Units: h00K (Mana Battery), Tip (Tooltip - Basic)
+{
+Build Mana Battery
+}
+
+STRING 136
+// Units: h00K (Mana Battery), Ubertip (Tooltip - Extended)
+{
+Provides a source of replenishment for your units' mana.
+}
+
+STRING 137
+// Abilities: A008 (Ability Info Icon Base), Name (Name)
+{
+Ability Info Icon Base
+}
+
+STRING 138
+// Units: n009 (Villager - Lumberjack), Name (Name)
+{
+Villager - Lumberjack
+}
+
+STRING 139
+// Units: n009 (Villager - Lumberjack), Tip (Tooltip - Basic)
+{
+House Villager - Lumberjack
+}
+
+STRING 141
+// Items: I002 (Ring of Divinity), Name (Name)
+{
+Ring of Divinity
+}
+
+STRING 142
+// Items: I002 (Ring of Divinity), Description (Description)
+{
+Consume a tree to restore 150 health over 30 seconds.
+}
+
+STRING 143
+// Items: I002 (Ring of Divinity), Ubertip (Tooltip - Extended)
+{
+Grants invulnerability for 8 seconds.
+}
+
+STRING 144
+// Items: I002 (Ring of Divinity), Tip (Tooltip - Basic)
+{
+Purchase Ring of Divinity
+}
+
+STRING 145
+// Abilities: A009 (Divine Shield), Name (Name)
+{
+Divine Shield
+}
+
+STRING 146
+// Units: h00F (Militia), Tip (Tooltip - Basic)
+{
+Rally Militia
+}
+
+STRING 148
+// Units: nhem (High Elf), Tip (Tooltip - Basic)
+{
+Train High Elf.
+}
+
+STRING 150
+// Units: nhef (High Elf), Tip (Tooltip - Basic)
+{
+Train High Elf.
+}
+
+STRING 154
+// Units: h00C (Stone Wall - Horizontal), Ubertip (Tooltip - Extended)
+{
+An expensive barrier.
+}
+
+STRING 155
+// Units: h00D (Stone Wall - Vertical), Ubertip (Tooltip - Extended)
+{
+An expensive barrier.
+}
+
+STRING 156
+// Units: h00C (Stone Wall - Horizontal), Tip (Tooltip - Basic)
+{
+Build Stone Wall - Horizontal
+}
+
+STRING 157
+// Units: h00D (Stone Wall - Vertical), Tip (Tooltip - Basic)
+{
+Build Stone Wall - Vertical
+}
+
+STRING 158
+// Units: n00A (Spearman), Name (Name)
+{
+Spearman
+}
+
+STRING 159
+// Units: n00A (Spearman), Tip (Tooltip - Basic)
+{
+Train Spearman
+}
+
+STRING 163
+// Abilities: A00A (Critical Strike), EditorSuffix (Editor Suffix)
+{
+(basic)
+}
+
+STRING 164
+// Units: h00F (Militia), Ubertip (Tooltip - Extended)
+{
+Basic combat units that move quickly.
+}
+
+STRING 166
+// Abilities: A00A (Critical Strike), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a 5% chance to do 10 times total damage on an attack.
+}
+
+STRING 169
+// Units: nhea (Archer), Ubertip (Tooltip - Extended)
+{
+Basic long-ranged attacker. Faster than most ranged units.|n|n|cff808080Move Speed: 300|r |n|n|cffffcc00Attacks land and air units.|r
+}
+
+STRING 170
+// Units: h00L (Arcane Bladesman), Name (Name)
+{
+Arcane Bladesman
+}
+
+STRING 171
+// Units: h00L (Arcane Bladesman), Tip (Tooltip - Basic)
+{
+Train Arcane Blademan
+}
+
+STRING 174
+// Units: h00L (Arcane Bladesman), Ubertip (Tooltip - Extended)
+{
+Deals magic damage instead of normal damage. Takes longer than most units to train.
+}
+
+STRING 175
+// Abilities: A00B (Mirror Image), Ubertip (Tooltip - Normal - Extended)
+{
+Confuses the enemy by creating 1 illusion of the Arcane Swordsman. Dispels all magic from the Arcane Swordsman. |nLasts 15 seconds.
+}
+
+STRING 176
+// Units: n00A (Spearman), Ubertip (Tooltip - Extended)
+{
+Light ranged unit that has a chance to land a critical strike. Has good night vision compared to standard units.
+}
+
+STRING 177
+// Units: hrif (Rifleman), Ubertip (Tooltip - Extended)
+{
+Highly skilled sharpshooter, effective against air units Has a very long attack range but is slower than most ranged units. Can gain the Long Rifles upgrade. |n|n|cffffcc00Attacks land and air units.|r
+}
+
+STRING 181
+// Units: n009 (Villager - Lumberjack), Ubertip (Tooltip - Extended)
+{
+Provides small boost to gold income. More durable than other villagers. Also has ability to chop trees.|n|n + 5 gold
+}
+
+STRING 182
+// Abilities: A00C (Pig Metamorphosis), Name (Name)
+{
+Pig Metamorphosis
+}
+
+STRING 183
+// Abilities: A00C (Pig Metamorphosis), Tip (Tooltip - Normal)
+{
+Pig Metamorphosis
+}
+
+STRING 184
+// Abilities: A00D (Curse of Wild Growth), Name (Name)
+{
+Curse of Wild Growth
+}
+
+STRING 185
+// Abilities: A00D (Curse of Wild Growth), Researchtip (Tooltip - Learn)
+{
+Learn Curse of Wild Growth - [|cffffcc00Level %d|r]
+}
+
+STRING 186
+// Abilities: A00D (Curse of Wild Growth), Researchubertip (Tooltip - Learn - Extended)
+{
+Causes roots to burst from the ground, visciously impaling the unit causing eventual death if not dispelled. Unit is immobilized and unable to act. |n|n|cffffcc00Level 1|r - <AEer,DataA1> damage per second for <AEer,Dur1> seconds. |n|cffffcc00Level 2|r - <AEer,DataA2> damage per second for <AEer,Dur2> seconds. |n|cffffcc00Level 3|r - <AEer,DataA3> damage per second for <AEer,Dur3> seconds. Cast range increased.
+}
+
+STRING 187
+// Abilities: A00D (Curse of Wild Growth), Ubertip (Tooltip - Normal - Extended)
+{
+Causes roots to burst from the ground, visciously impaling the unit causing eventual death if not dispelled. Unit is immobilized and unable to act.
+}
+
+STRING 188
+// Abilities: A00D (Curse of Wild Growth), Ubertip (Tooltip - Normal - Extended)
+{
+Causes roots to burst from the ground, visciously impaling the unit causing eventual death if not dispelled. Unit is immobilized and unable to act.
+}
+
+STRING 189
+// Abilities: A00D (Curse of Wild Growth), Ubertip (Tooltip - Normal - Extended)
+{
+Causes roots to burst from the ground, visciously impaling the unit causing eventual death if not dispelled. Unit is immobilized and unable to act.
+}
+
+STRING 190
+// Abilities: A00E (Map Blink), Name (Name)
+{
+Map Blink
+}
+
+STRING 191
+// Items: I003 (Demon Staff of Wild Growth), Name (Name)
+{
+Demon Staff of Wild Growth
+}
+
+STRING 192
+// Items: I003 (Demon Staff of Wild Growth), Tip (Tooltip - Basic)
+{
+Demon Staff of Wild Growth
+}
+
+STRING 195
+// Items: I003 (Demon Staff of Wild Growth), Description (Description)
+{
+Cast Curse of Wild Growth
+}
+
+STRING 196
+// Items: I003 (Demon Staff of Wild Growth), Ubertip (Tooltip - Extended)
+{
+Causes roots to erupt from the ground and impale the unit, causing heavy damage while also immobilizing it. A Demon Treant is summoned to slay the target. |nThe Demon Treant lasts for 6 seconds.
+}
+
+STRING 197
+// Abilities: A00F (Evasion), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a 10% percent chance to avoid an attack.
+}
+
+STRING 198
+// Abilities: A00F (Evasion), EditorSuffix (Editor Suffix)
+{
+(archer)
+}
+
+STRING 199
+// Upgrades: R000 (Chaos), Name (Name)
+{
+Improved Evasion - Archer
+}
+
+STRING 203
+// Upgrades: R000 (Chaos), Tip (Tooltip)
+{
+Research Improved Evasion - Archer
+}
+
+STRING 204
+// Upgrades: R000 (Chaos), Ubertip (Tooltip - Extended)
+{
+Improves the evasion of your archers.
+}
+
+STRING 205
+// Upgrades: R000 (Chaos), effect1 (Effect 1)
+{
+rlev
+}
+
+STRING 206
+// Abilities: A00F (Evasion), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a 25% percent chance to avoid an attack.
+}
+
+STRING 207
+// Units: H00M (Herald of the Arcane), Name (Name)
+{
+Herald of the Arcane
+}
+
+STRING 208
+// Units: H00M (Herald of the Arcane), Awakentip (Tooltip - Awaken)
+{
+Revive Herald of the Arcane
+}
+
+STRING 209
+// Units: H00M (Herald of the Arcane), Tip (Tooltip - Basic)
+{
+Summon Herald of the Arcane
+}
+
+STRING 210
+// Units: H00M (Herald of the Arcane), Revivetip (Tooltip - Revive)
+{
+Revive Herald of the Arcane
+}
+
+STRING 211
+// Units: H00M (Herald of the Arcane), Ubertip (Tooltip - Extended)
+{
+Mage Hero.
+}
+
+STRING 212
+// Abilities: A00G (Time Freeze), Name (Name)
+{
+Time Freeze
+}
+
+STRING 213
+// Abilities: A00G (Time Freeze), Researchtip (Tooltip - Learn)
+{
+Learn Timer Freeze
+}
+
+STRING 214
+// Abilities: A00G (Time Freeze), Researchubertip (Tooltip - Learn - Extended)
+{
+Freezes the unit in place for some time.
+}
+
+STRING 215
+{
+Demon Gold:
+}
+
+STRING 216
+{
+Demon Gold
+}
+
+STRING 217
+// Buffs/Effects: B000 (Time Freeze), EditorName (Name (Editor Only))
+{
+Time Freeze
+}
+
+STRING 218
+// Buffs/Effects: B000 (Time Freeze), Bufftip (Tooltip)
+{
+Time Freeze
+}
+
+STRING 219
+// Buffs/Effects: B000 (Time Freeze), Buffubertip (Tooltip - Extended)
+{
+This unit has been frozen in time.
+}
+
+STRING 220
+// Abilities: A00G (Time Freeze), Tip (Tooltip - Normal)
+{
+Time Freeze - [|cffffcc00Level 1|r]
+}
+
+STRING 221
+// Abilities: A00G (Time Freeze), Tip (Tooltip - Normal)
+{
+Time Freeze - [|cffffcc00Level 2|r]
+}
+
+STRING 222
+// Abilities: A00G (Time Freeze), Tip (Tooltip - Normal)
+{
+Time Freeze - [|cffffcc00Level 3|r]
+}
+
+STRING 229
+// Abilities: A00G (Time Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the unit in place for some time. Freezes target for 10 seconds and deals 100 damage after the target is unfrozen. Whilst frozen, target is invulnerable.|n |cff808080Cooldown: |r60|cff808080/50/40 seconds.|r 
+}
+
+STRING 230
+// Abilities: A00G (Time Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the unit in place for some time. Freezes target for 10 seconds and deals 100 damage after the target is unfrozen. Whilst frozen, target is invulnerable.|n |cff808080Cooldown: 60/|r50|cff808080/40 seconds.|r 
+}
+
+STRING 231
+// Abilities: A00G (Time Freeze), Ubertip (Tooltip - Normal - Extended)
+{
+Freezes the unit in place for some time. Freezes target for 10 seconds and deals 100 damage after the target is unfrozen. Whilst frozen, target is invulnerable.|n |cff808080Cooldown: 60/50/|r40|cff808080 seconds.|r 
+}
+
+STRING 233
+// Units: h00N (Arcane Elemental), Name (Name)
+{
+Arcane Elemental
+}
+
+STRING 234
+// Units: h00N (Arcane Elemental), EditorSuffix (Name - Editor Suffix)
+{
+(Level 1)
+}
+
+STRING 235
+// Abilities: A00H (Summon Arcane Elemental), Name (Name)
+{
+Summon Arcane Elemental
+}
+
+STRING 237
+// Abilities: A00H (Summon Arcane Elemental), Researchtip (Tooltip - Learn)
+{
+Learn Summon Arcane Elemental - [|cffffcc00Level %d|r].
+}
+
+STRING 238
+// Abilities: A00H (Summon Arcane Elemental), Tip (Tooltip - Normal)
+{
+Summon Arcane Elemental - [|cffffcc00Level 1|r]
+}
+
+STRING 239
+// Abilities: A00H (Summon Arcane Elemental), Tip (Tooltip - Normal)
+{
+Summon Arcane Elemental - [|cffffcc00Level 2|r]
+}
+
+STRING 240
+// Abilities: A00H (Summon Arcane Elemental), Tip (Tooltip - Normal)
+{
+Summon Arcane Elemental - [|cffffcc00Level 3|r]
+}
+
+STRING 241
+// Abilities: A00H (Summon Arcane Elemental), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 1 Arcane Elemental. Has Spell Immunity and Mana Burn. Lasts 60 seconds.
+}
+
+STRING 242
+// Abilities: A00H (Summon Arcane Elemental), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 2 Arcane Elemental. Has Spell Immunity and Mana Burn. Lasts 60 seconds.
+}
+
+STRING 243
+// Abilities: A00H (Summon Arcane Elemental), Ubertip (Tooltip - Normal - Extended)
+{
+Summons 3 Arcane Elemental. Has Spell Immunity and Mana Burn. Lasts 60 seconds.
+}
+
+STRING 244
+// Abilities: A004 (Eat Tree), EditorSuffix (Editor Suffix)
+{
+(Greater Tango)
+}
+
+STRING 245
+// Abilities: A000 (Catastrophic Blink), Name (Name)
+{
+Catastrophic Blink
+}
+
+STRING 246
+// Abilities: A000 (Catastrophic Blink), Researchtip (Tooltip - Learn)
+{
+Learn Catastrophic Blink - [|cffffcc00Level %d|r]
+}
+
+STRING 247
+// Abilities: A000 (Catastrophic Blink), Researchubertip (Tooltip - Learn - Extended)
+{
+Short distance teleportation that causes a shockwave at the target destination where you land.
+}
+
+STRING 248
+// Abilities: A000 (Catastrophic Blink), Tip (Tooltip - Normal)
+{
+Catastrophic Blink
+}
+
+STRING 249
+// Abilities: A000 (Catastrophic Blink), Tip (Tooltip - Normal)
+{
+Catastrophic Blink
+}
+
+STRING 250
+// Abilities: A000 (Catastrophic Blink), Tip (Tooltip - Normal)
+{
+Catastrophic Blink
+}
+
+STRING 251
+// Abilities: A000 (Catastrophic Blink), Ubertip (Tooltip - Normal - Extended)
+{
+Short distance teleportation that causes a shockwave at the target destination where you land.
+}
+
+STRING 252
+// Abilities: A000 (Catastrophic Blink), Ubertip (Tooltip - Normal - Extended)
+{
+Short distance teleportation that causes a shockwave at the target destination where you land.
+}
+
+STRING 253
+// Abilities: A000 (Catastrophic Blink), Ubertip (Tooltip - Normal - Extended)
+{
+Short distance teleportation that causes a shockwave at the target destination where you land.
+}
+
+STRING 254
+// Units: nhem (High Elf), Ubertip (Tooltip - Extended)
+{
+Provides small boost to gold income. Has slightly more health than felame villager.  |n|cffffff00+5 Gold|r
+}
+
+STRING 255
+// Units: nhef (High Elf), Ubertip (Tooltip - Extended)
+{
+Provides small boost to gold income. Is slightly faster than male villager. |n|cffffff00+5 Gold|r
+}
+
+STRING 256
+// Upgrades: R002 (Chaos), Ubertip (Tooltip - Extended)
+{
+Improves the move speed of your workers.|n|cff808080+50 movespeed|r
+}
+
+STRING 257
+// Abilities: A00I (Hardened Steel), Name (Name)
+{
+Hardened Steel
+}
+
+STRING 258
+// Abilities: A00I (Hardened Steel), Tip (Tooltip - Normal)
+{
+Hardened Steel
+}
+
+STRING 260
+// Abilities: A00I (Hardened Steel), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces all attacks on the mechanical unit by 15 damage. Attacks cannot be reduced below 4 damage.
+}
+
+STRING 261
+// Units: hhou (Farm), Ubertip (Tooltip - Extended)
+{
+Provides food and allows training of villagers and pigs. Can also provide buffs for units as well. 
+}
+
+STRING 262
+// Units: hwtw (Scout Tower), Ubertip (Tooltip - Extended)
+{
+Durable Observation tower that has 1800 vision range.
+}
+
+STRING 263
+// Units: h00O (Artifact Pedestal), Name (Name)
+{
+Artifact Pedestal
+}
+
+STRING 264
+// Abilities: A00J (Base - Ability Click Trigger), Tip (Tooltip - Normal)
+{
+Ability Click Trigger
+}
+
+STRING 265
+// Abilities: A00J (Base - Ability Click Trigger), Ubertip (Tooltip - Normal - Extended)
+{
+Ability Click Trigger
+}
+
+STRING 267
+// Abilities: A00J (Base - Ability Click Trigger), Name (Name)
+{
+Base - Ability Click Trigger
+}
+
+STRING 268
+// Abilities: A00K (Create - Demon Crown), Tip (Tooltip - Normal)
+{
+|cff8080ffArtifact|r - Demon Crown
+}
+
+STRING 272
+// Items: I004 (Demon Crown), Name (Name)
+{
+Demon Crown
+}
+
+STRING 273
+// Items: I004 (Demon Crown), Tip (Tooltip - Basic)
+{
+Demonic Crown
+}
+
+STRING 274
+// Items: I004 (Demon Crown), Ubertip (Tooltip - Extended)
+{
+A crown that allows you to summon demons.
+}
+
+STRING 275
+// Units: h00O (Artifact Pedestal), Tip (Tooltip - Basic)
+{
+Build Artifact Pedestal
+}
+
+STRING 276
+// Units: h00O (Artifact Pedestal), Ubertip (Tooltip - Extended)
+{
+Enables you to choose from a set of artifacts that will provide effects/bonuses for your hero, units and buildings.
+}
+
+STRING 277
+// Abilities: A00L (Dark Portal), EditorSuffix (Editor Suffix)
+{
+(Demon Crown)
+}
+
+STRING 278
+// Abilities: A00L (Dark Portal), Ubertip (Tooltip - Normal - Extended)
+{
+The |cff8080ffDemon Crown|r enables the ability to open a portal, allowing demons to step through and do your bidding.
+}
+
+STRING 279
+// Abilities: A00K (Create - Demon Crown), Name (Name)
+{
+Create - Demon Crown
+}
+
+STRING 280
+// Units: n00D (Gabe Newell), Name (Name)
+{
+Gabe Newell
+}
+
+STRING 281
+// Abilities: A00M (Sacrifice Peasant (Demon Crown)), Tip (Tooltip - Normal)
+{
+Sacrifice Peasant (Demon Crown)
+}
+
+STRING 282
+// Abilities: A00M (Sacrifice Peasant (Demon Crown)), Name (Name)
+{
+Sacrifice Peasant (Demon Crown)
+}
+
+STRING 283
+// Abilities: A00M (Sacrifice Peasant (Demon Crown)), Ubertip (Tooltip - Normal - Extended)
+{
+Sacrifices your peasant to the |cff8080ffDemon Crown|r.
+}
+
+STRING 284
+// Upgrades: R003 (Chaos), Name (Name)
+{
+Demon Crown - Sacrifice
+}
+
+STRING 285
+// Upgrades: R003 (Chaos), Tip (Tooltip)
+{
+Demon Crown - Sacrifice
+}
+
+STRING 286
+// Abilities: A00K (Create - Demon Crown), Ubertip (Tooltip - Normal - Extended)
+{
+|cffc0c0c0Default|r: Enables towns to summon lesser demons.
+
+|cff8080ffWhen equipped in the Artifact Pedestal|r: 
+Enables you to sacrifice peasants to the Demon Crown to summon a random lesser demon.
+
+|cff00ffffWhen equipped on a Hero|r:
+Enables your hero to temporarily transform into a powerful demon. 
+
+|cff800000When destroyed|r: 
+Opens demonic rifts across the map, sparking a demonic invasion. 
+Allows you to choose a different artifact.
+}
+
