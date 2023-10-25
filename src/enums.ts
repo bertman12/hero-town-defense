@@ -181,6 +181,11 @@ export enum ITEM_ID{
 }
 
 /**
+ * Subset of special items from set of all items.
+ */
+export const artifactItemIdSet = new Set([ITEM_ID.demonCrown]);
+
+/**
  * Set of entities that players can capture.
  */
 export const capturableUnitIdSet = new Set([

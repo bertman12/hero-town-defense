@@ -7,7 +7,7 @@ import { generateWorld } from "./mapGenerator";
 import { initEconomy } from "./economy";
 import { initAttackerForces } from "./enemies";
 import { playStartMusic } from "./music";
-import { playerStates, PlayerState } from "./player-utils/player-data";
+import { playerStates, PlayerState, setup_trackArtifactHolders } from "./player-utils/player-data";
 import { forEachPlayerPlaying, initializePlayers } from "./player-utils/utils";
 
 const BUILD_DATE = compiletime(() => new Date().toUTCString());
@@ -74,11 +74,11 @@ function mapStart(){
   })
 
   playerStates.forEach(state => print("Player State Cached Player Name: ",state.player.name));
-
   setupAbilityTriggers();
   initializePlayers();
   initEconomy();
   generateWorld();
+  setup_trackArtifactHolders();
   playStartMusic();
 
   new Timer().start(45, false, initAttackerForces);
