@@ -165,7 +165,7 @@ function trig_CurseOfWildGrowth(){
 }
 
 function trig_timeFreeze(){
-    let t  = new Trigger();
+    let t  = Trigger.create();
 
     t.registerAnyUnitEvent(EVENT_PLAYER_UNIT_SPELL_EFFECT);
 
@@ -220,7 +220,7 @@ function trig_createDemonCrown(){
     t.addCondition(() => {
         let castUnit = Unit.fromEvent() as Unit;
         if(GetSpellAbility() === castUnit.getAbility(ABILITY_ID.demonCrownCreate)){
-            print("demon crown was cast!");
+            print("Demon crown was created!");
             return true;
         }
 
@@ -230,13 +230,13 @@ function trig_createDemonCrown(){
     t.addAction(() => {
         let artifactPedestal = Unit.fromEvent() as Unit;
         //add item to the unit inventory
-        let p = artifactPedestal.owner;
+        // let p = artifactPedestal.owner;
         let item = new Item(ITEM_ID.demonCrown, 0,0);
         artifactPedestal.addItem(item);
-
-        playerStates.get(p.id)?.addArtifact("demonCrown", artifactPedestal)
+        print("Item was created and added to pedestal.");
+        // playerStates.get(p.id)?.addArtifact(item.id, artifactPedestal)
         
-        print("Player state updated for ", p.name, ". Demon Crown added to player artifacts.");
+        // print("Player state updated for ", p.name, ". Demon Crown added to player artifacts.");
     });
 }
 
@@ -267,3 +267,13 @@ function trig_demonCrown_sacrificePeasant(){
     
     });
 }
+
+
+
+
+
+
+
+
+
+

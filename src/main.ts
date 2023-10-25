@@ -2,13 +2,14 @@ import { Timer, Unit } from "w3ts";
 import { Players } from "w3ts/globals";
 import { W3TS_HOOK, addScriptHook } from "w3ts/hooks";
 import { Units } from "@objectdata/units";
-import { setupAbilityTriggers } from "./abilities";
+import { setupAbilityTriggers } from "./abilities-general";
 import { generateWorld } from "./mapGenerator";
 import { initEconomy } from "./economy";
 import { initAttackerForces } from "./enemies";
 import { playStartMusic } from "./music";
 import { playerStates, PlayerState, setup_trackArtifactHolders } from "./player-utils/player-data";
 import { forEachPlayerPlaying, initializePlayers } from "./player-utils/utils";
+import { completeAbilityTriggersSetup } from "./abilities";
 
 const BUILD_DATE = compiletime(() => new Date().toUTCString());
 const TS_VERSION = compiletime(() => require("typescript").version);
@@ -55,7 +56,6 @@ function tsMain() {
   // SetCameraBounds(-1200,-1200,-1200,1200, 1200, 1200, 1200, -1200);
 }
 
-
 function mapStart(){
   StopMusic(false);
   SetTimeOfDay(10);
@@ -71,17 +71,20 @@ function mapStart(){
   
   forEachPlayerPlaying((player) => {
     playerStates.set(player.id, new PlayerState(player));
-  })
+  });
 
   playerStates.forEach(state => print("Player State Cached Player Name: ",state.player.name));
+  // setup_trackArtifactHolders();
   setupAbilityTriggers();
+  
+  // completeAbilityTriggersSetup();
+  // setup_trackArtifactHolders();
+  setup_trackArtifactHolders();
   initializePlayers();
   initEconomy();
   generateWorld();
-  setup_trackArtifactHolders();
   playStartMusic();
-
-  new Timer().start(45, false, initAttackerForces);
+  Timer.create().start(45, false, initAttackerForces);
 }
 
 addScriptHook(W3TS_HOOK.MAIN_AFTER, tsMain);

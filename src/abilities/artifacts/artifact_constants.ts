@@ -1,90 +1,44 @@
-import { UNIT_IDS, UPGRADE_ID, artifactItemIdSet} from './../enums';
-import { townsCreated } from "../mapGenerator";
-import { ABILITY_ID, ITEM_ID } from "../enums";
-import { Item, MapPlayer, Trigger, Unit } from "w3ts";
+import { ITEM_ID, ABILITY_ID, UNIT_IDS, artifactItemIdSet } from "src/enums";
+import { Item, Trigger, Unit } from "w3ts";
+import { trig_pedestalEquip } from "./demonCrown";
 
-export const playerStates = new Map<number, PlayerState>();
-
-//Keeps track of a particular player's state
-export class PlayerState {
-
-    // artifactNames: ArtifactType[] = [];
-    artifactItemsOwned: Item[] = [];
-
-    constructor(public player: MapPlayer){}
-
-    // addArtifact(artifactType: ArtifactType, equippingUnit: Unit){
-    //     //When you add an artifact, setup the trigger for the artifact pedestal for the
-    //     this.artifactNames.push(artifactType);
-    //     this.initializeArtifact(artifactType, equippingUnit);
-        
-    // }
-
-    // private initializeArtifact(artifactName: ArtifactType,  equippingUnit: Unit){
-    //     ARTIFACT_CONSTANTS[artifactName].artifactPedestalEquipTrigger(equippingUnit);
-    // }
-
-    // private removeArtifact(artifactName: ArtifactType){
-
-    // }
-
-}
-
-//This object will keep track of the artifact and it's associated affects
-
-// /**
-//  * Anything relevant to the function or what an artifact does ought to be stored here.
-//  */
-type ArtifactType = keyof typeof ARTIFACT_CONSTANTS;
-
-type ArtifactHostTransitionFn = (unit: Unit) => void;
-
-// /**
-//  * Artifact Constants
-//  */
-const ARTIFACT_CONSTANTS = {
+/**
+ * Artifact Constants
+ */
+export const ARTIFACT_CONSTANTS = {
     [ITEM_ID.demonCrown]: {
         artifactItemNumber: ITEM_ID.demonCrown,
         artifactCreationAbilityId: ABILITY_ID.demonCrownCreate,
         pedestalEquipAbility: ABILITY_ID.demonCrownDarkPortal,
         artifactHeroEquipTrigger: (unit: Unit) => null,
         artifactHeroUnequipTrigger: (unit: Unit) => null,
-        artifactPedestalEquipTrigger: demonCrownPedestalEquipTrigger as ArtifactHostTransitionFn,
+        artifactPedestalEquipTrigger: trig_pedestalEquip,
         artifactPedestalUnequipTrigger: (unit: Unit) => null,
         artifactDestructionTrigger: () => {},
     },
 }
 
-function demonCrownPedestalEquipTrigger(equippingUnit: Unit){
-    //Add the dark portal ability to all towns
-    print("Demon crown pedestal equip trigger");
+/**
+ * Anything relevant to the function or what an artifact does ought to be stored here.
+ */
+type ArtifactType = keyof typeof ARTIFACT_CONSTANTS;
 
-    let player = equippingUnit.owner;
+type ArtifactHostTransitionFn = (unit: Unit) => void;
 
-    townsCreated.forEach(town => {
-        if(town.owner === player){
-            town.addAbility(ARTIFACT_CONSTANTS[ITEM_ID.demonCrown].pedestalEquipAbility);
-            print("Found a player owner for the town, adding demon crown ability");
-        }
-    });
 
-    player.addTechResearched(UPGRADE_ID.demonCrownSacrifice, 1);
-}
-
-// /**
-//  * There may exists several artifacts at any time that span many different holders across time.
-//  * 
-//  * I want to track who is holding an artifact and apply the artifact bonus appropriately. 
-//  */
+/**
+ * There may exists several artifacts at any time that span many different holders across time.
+ * 
+ * I want to track who is holding an artifact and apply the artifact bonus appropriately. 
+ */
 
 const acquiredArtifactInstancesSet = new Set<Item>();
 
-
-// /**
-//  * Setup at game start
-//  * 
-//  * Watches the transfer of artifacts from owner to owner.
-//  */
+/**
+ * Setup at game start
+ * 
+ * Watches the transfer of artifacts from owner to owner.
+ */
 export function setup_trackArtifactHolders(){
     //Depending on who holds the artifact, a trigger ought to be set.
     //We need to know the currently holder of the artifact. 
@@ -128,8 +82,8 @@ export function setup_trackArtifactHolders(){
         artifactHostEventTransitionAction("removal")
     })
 
-//     //Artifact removal trigger ...
-
+    //Artifact removal trigger ...
+    
 }
 
 function itemIsArtifact(item: Item | undefined){
